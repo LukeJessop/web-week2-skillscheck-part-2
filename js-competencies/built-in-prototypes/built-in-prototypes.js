@@ -10,6 +10,15 @@
 //use the built-in array method .map
   
   //Code here
+function dragonMapper(arr){
+  let dragonArr = arr.map((element) => {
+    `${element}...here be dragons`
+    
+  })
+  return dragonArr
+}
+
+
 
 
 
@@ -21,6 +30,12 @@
 //cookieLoversOnly should return the filtered array.
   
   //Code here
+function cookieLoversOnly(arr){
+  let cookieLovers = arr.filter((element) => element.favoriteCookies)
+  console.log(arr)
+  return cookieLovers
+}
+
 
 
 //////////////////PROBLEM 3////////////////////

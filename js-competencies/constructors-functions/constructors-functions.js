@@ -6,18 +6,10 @@
 //BROKEN ON PURPOSE 
 
 function EgyptianGoddesses(name, oversees, strength, weakness) {
-  name = name;
-  oversees = oversees;
-  strength = strength;
-  weakness = weakness;
-
-  return function() {
-    name,
-    oversees,
-    strength,
-    weakness
-  }
-  
+  this.name = name;
+  this.oversees = oversees;
+  this.strength = strength;
+  this.weakness = weakness;
 }
 
 // Use the variable maatCharacteristics below to create a new Egyptian Goddess - save it to 
@@ -26,7 +18,7 @@ function EgyptianGoddesses(name, oversees, strength, weakness) {
 var maatCharacteristics = ['Maat', 'Truth and Justice', 'Balancing and Just', 'Exacting in her standards']
 
 //Code here
-
+let maat = new EgyptianGoddess(this.maatCharacteristics)
 
 
 //////////////////PROBLEM 2////////////////////
